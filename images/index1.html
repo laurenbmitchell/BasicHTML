@@ -15,6 +15,32 @@
         color: red;
         font-style: normal;
       }
+
+      video{
+        width: 400px;
+      }
+
+      img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      table, td, th {
+        border: 1px solid green;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      tfoot {
+        text-align: left;
+      }
+
+      div.product {
+        background-color: aqua;
+        width: 300px;
+      }
+    
     </style>
   </head>
 
@@ -89,17 +115,48 @@
       <dd>CSS</dd>
       <dd>Responsive Design</dd>
 
+      <p></p>
+    
 
       <table>
-        <tr>
-          <td>Marketing</td>
-          <td>$100</td>
-        </tr>
-        <tr>
-          <td>Accounting</td>
-          <td>$200</td>
-        </tr>
+        <thead>
+          <tr>
+            <th colspan="2">Expenses</th>
+          </tr>
+          <tr>
+            <th>Category</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Marketing</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>Accounting</td>
+            <td>$200</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>$300</th>
+          </tr>
+        </tfoot>
       </table>
+
+
+      <div class="product">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit aliquid expedita, architecto dolores, corrupti fugiat non blanditiis delectus accusantium minima ipsam odit ab possimus rerum ipsa illo incidunt provident?</p>
+        <a href="#">Link</a>
+      </div>
+      <div class="product">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit aliquid expedita, architecto dolores, corrupti fugiat non blanditiis delectus accusantium minima ipsam odit ab possimus rerum ipsa illo incidunt provident?</p>
+        <a href="#">Link</a>
+      </div>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consequatur!</p>
 
   </body>
 
